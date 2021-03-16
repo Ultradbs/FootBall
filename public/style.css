@@ -1,0 +1,153 @@
+*{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   
+}
+
+body{
+    height: auto    ;
+    display: block;
+    padding-top: 60px;
+    min-height: 100vh;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  
+    background-size: cover;
+    background-color: #82ad84;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+
+/*Navbar*/
+#barnav{
+    display: flex;
+    background-color: #405341; 
+    color: #fff;
+}
+
+#pic{
+    background-size: cover;
+}
+
+.teamOne{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: #4c8a32;
+}
+
+.teamTwo{
+     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: #4c8a32;
+}
+
+.blank{
+    width: 100%;
+    height: 20vh;
+}
+
+.rectangle{
+    width:100%;
+    height: 60vh;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.rec{
+    width: 60%;
+    height: 55%;
+    border: 10px solid white;
+}
+
+.semC{
+    
+    width: 50%;
+    height: 50%;
+    border: 10px solid white;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    border-width: 0px 10px 10px 10px;
+    text-align: center;
+    
+}
+
+.center{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color:#4c8a32;
+    justify-content: center;
+    vertical-align: center;
+    
+}
+
+.circle{
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+    border: 10px solid white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+/*Footer*/
+
+.contact li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 1em;
+    text-align: center;
+  }
+  
+  .contact p {
+    text-align: center;
+    color: white;
+  }
+  
+  .contact {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  
+  .cont {
+    text-align: center;
+    background-color: #405341;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+/*.line{
+    color: solid 10px;
+    width: 25%;
+    margin: 0;
+}*/

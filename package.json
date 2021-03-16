@@ -1,0 +1,18 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "Made by MT-2002",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Ultradbs/FootBall"
+  },
+  "author": "Aslan Ansar Yerkegul Balnur Saltanat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
